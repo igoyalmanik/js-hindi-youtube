@@ -72,6 +72,7 @@ function loginuserMessage3(username="user"){
 // console.log(loginuserMessage3())
 // console.log(loginuserMessage3("Hitesh"))
 
+
 function calculatecartprice(...num1)
 {
     return num1
@@ -82,7 +83,7 @@ function calculatecartprice(...num1)
  
 function calculatecartprice2(val1,val2,...num1)
 {
-    return val1,val2,num1
+    return [val1,val2,num1]
 }
 
  console.log(calculatecartprice2(100,200,400,600)) // fudu
