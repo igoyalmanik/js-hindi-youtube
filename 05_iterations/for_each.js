@@ -1,10 +1,10 @@
 // for each
 const coding = ["js","ruby","java","cpp"]
 
-// coding.forEach( function (item) {
+//  coding.forEach( function (item) {
 //    console.log(item);
    
-// } )
+//  } )
 
 // in call back function we dont give name to  it.
 
@@ -14,30 +14,28 @@ coding.forEach(  (item) => {
     
 } )
 
-// function printMe(item){
-//     console.log(item);
-// }
+function printMe(item){
+    console.log(item);
+}
 
-
-
-// coding.forEach(printMe); // just give the reference dont write  printMe() , this will execute it.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+ //coding.forEach(printMe); // just give the reference dont write  printMe() , this will execute it.mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
 
 coding.forEach( (item,index,arr)=>{
-  //  console.log(item,index,arr);
+    console.log(item,index,arr);
     
 } )
 
 const myCode = [
     {
         languageName:"javascript",
-         filename : ".js",
+         filename : ".js"
 
     },
 
     {
         languageName:"java",
-         filename : ".java",
+         filename : ".java"
          
     },
     
@@ -49,7 +47,7 @@ const myCode = [
 ]
 
 myCode.forEach((item)=> {
-    console.log(item.languageName);
+   console.log(item.languageName);
     
 })
 

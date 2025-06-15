@@ -14,7 +14,7 @@ for (const num of arr) {
 const  greetings = "Hello world!"
 for (const greet of greetings)
 {
-  //  console.log(`Each char is ${greet}`);
+ //   console.log(`Each char is ${greet}`);
 
 }
 
@@ -29,7 +29,7 @@ maps.set('RUS',"Russia")
 
 for (const key of maps)
 {
-  //  console.log(key);
+   // console.log(key);
     
 }
 
@@ -51,7 +51,7 @@ for (const [key,value] of maps)
     
 //  }
 
- // maps are iterable but not onjects in for of loop.
+ // maps are iterable but not objects in for-of loop.
 
  const myObject = {
     js: 'javascript',
@@ -63,23 +63,23 @@ for (const [key,value] of maps)
 
  for(const key in myObject)
  {
-  //  console.log(key);
-  //  console.log(myObject[key]);
- //  console.log(`${key} shortcut is for ${myObject[key]}`);
+   // console.log(key);
+   // console.log(myObject[key]);
+  // console.log(`${key} shortcut is for ${myObject[key]}`);
  }
 
  const programming = ["js","java","python","cpp"]
  for(const key in programming){
- //   console.log(key);
+   // console.log(key);
     // for in loop in array print the keys. not the values
     // to  print values :-
-  //  console.log(programming[key]);
+   // console.log(programming[key]);
  }
 
 const maps2 = new Map()
-maps.set('IN',"India")
-maps.set('FR',"FRANCE")
-maps.set('RUS',"Russia")
+maps2.set('IN',"India")
+maps2.set('FR',"FRANCE")
+maps2.set('RUS',"Russia")
 
 // here in for in map isnot iterable.
 for (const key in maps2) {
